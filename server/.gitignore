@@ -1,0 +1,75 @@
+# 本地配置文件
+.env
+.env.local
+.env.[a-zA-Z0-9]*
+.env.*.local
+
+# node_modules 目录
+node_modules/
+
+# 临时文件和编译生成的文件
+*.DS_Store
+*.log
+*.tmp
+*.tmp.*
+*.swp
+*.swo
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sdf
+*.ipch
+*.vspscc
+*.vssscc
+*.tlog/
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 编译生成的文件夹
+/dist/
+/build/
+/out/
+
+# 测试生成的文件
+/coverage/
+*.test.js
+
+# 编辑器和 IDE 自动生成的文件
+.idea/
+.vscode/
+*.code-workspace
+*.project
+*.tmlanguage
+*.sublime-project
+*.sublime-workspace
+
+# 缓存文件
+*.cache
+npm-cache/
+yarn-error.log
+yarn-integrity
+.pnpureau
+.pnp.js
+
+# 临时文件和日志文件
+*.log
+npm-debug.log*
+yarn-debug.log
+yarn-error.log
+*.gz
+
+# 代码编译工具产生的文件
+*.map
+*.d.ts
+*.js.map
+*.js
+*.jsx
+*.ts
+*.tsx
+
+# Webpack 等打包工具产生的文件
+webpack.config.js
+webpack-stats.json
+.babelrc
